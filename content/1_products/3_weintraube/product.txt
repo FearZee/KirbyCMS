@@ -1,0 +1,19 @@
+Title: weintraube
+
+----
+
+Price: 5
+
+----
+
+Stock: 10
+
+----
+
+Image:
+
+- weintrauben-erstickungsgefahr.jpg
+
+----
+
+Description: 

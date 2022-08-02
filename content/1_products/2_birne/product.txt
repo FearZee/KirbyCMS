@@ -1,0 +1,23 @@
+Title: birne
+
+----
+
+Price: 2
+
+----
+
+Stock: 200
+
+----
+
+Image:
+
+- download.jpg
+
+----
+
+Discount: 5
+
+----
+
+Description: Ey ne geile Birne

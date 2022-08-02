@@ -1,0 +1,48 @@
+title: Product
+
+tabs:
+  needed:
+    label: Pflichtangaben
+    icon: Text
+    columns:
+      - width: 1/2
+          sections:
+            content:
+              type: fields
+              fields:
+                price:
+                  label: Preis
+                  type: number
+                  after: '€'
+                  required: true
+                  min: 0
+                stock:
+                  label: Bestand
+                  type: number
+                  required: true
+                image:
+                  label: image
+                  type: files
+                  query: model.images
+                  uploads:
+                    template: images
+                  layout: cards
+                  image:
+                    ratio: 1/1
+                    cover: true
+                    required: true
+      - width: 1/2
+        sections:
+          optional:
+            type: fields
+            fields:
+              discount:
+                label: Rabatt
+                type: number
+                after: '%'
+                required: false
+              description:
+                label: Beschreibung
+                type: textarea
+
+        

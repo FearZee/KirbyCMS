@@ -1,0 +1,12 @@
+title: Products
+preset: pages
+icon: 🖼
+
+drafts:
+  extends: sections/products
+  label: Products Drafts
+
+listed:
+  extends: sections/products
+  label: Published Products
+  layout: cards

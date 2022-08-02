@@ -1,0 +1,15 @@
+Title: Apfel
+
+----
+
+Price: 1
+
+----
+
+Stock: 15
+
+----
+
+Image:
+
+- apfel-img-9270.jpg
